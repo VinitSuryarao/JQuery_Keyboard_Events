@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title> JQuery Test  </title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script type = "text/javascript">
+
+		    // ready func call when document is ready to render
+         $(document).ready(function() 
+         {
+            // Key Press
+            $('body').keypress(function() {
+               $('body').css("background-color","Orange")
+             });
+             // Key Up
+             $('body').keyup(function() {
+               $('body').css("background-color","Red")
+             });
+             // Key Down
+             $('body').keydown(function() {
+               $('body').css("background-color","Green")
+             });
+            
+
+         });
+
+     </script>
+<head>
+   <body>
+      <div>
+         <p> This is Mouse Event Programs</p>
+      </div>
+   </body>
+</html>
